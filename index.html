@@ -3,21 +3,130 @@
 
 <html>
 	<head>
-		<title>My cool webpage</title>
-		<style>
-		h1 {
-			color:red;
-		}
-		</style>
+		<title>Books Read</title>
+		<meta charset="utf-8"/>
+		<link rel = "stylesheet" type = "text/css" href ="style.css"/>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $(".book-list-item").click(function(){
+		        $(".book-description-text").text("This book is about this");
+		    });
+		});
+		</script>
+
+<!-- <script src = "jquery-3.3.1.js"></script>
+<script> $(document).ready(function()){
+  $(".book-list-item").click(function(){
+    $(this).hide();
+  });
+});
+</script> -->
+
 	</head>
-	
 	<body>
-		<h1> Welcome to my page!!</h1>
-		<p>
-		Hello world! I have an entire paragraph
-		</p>
+		<header>
+			<div class= "nav-bar"
+	<nav>
+		 <ul>
+			 <li><a href="">Books Read 2017</a></li>
+			 <li><a href="javascript:alert('I haven't read any books in 2018!');">Books Read 2018</a></li>
+		 </ul>
+
+		 </div>
+	 </nav>
+ </header>
+<div class  = "page-description">
+
+		<h1 class="page-title"> Books Read </h1>
+		<h3 class= "page-text">
+		2017
+	</h3>
+
+	</div>
+<div class= "book-description">
+	<p class="book-description-text">
+These are the books I read in 2017
+	</p>
+
+</div>
+<div class = "book-list">
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Name of the Wind" src= "NameoftheWind.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Name of the Wind" src= "WiseMansFear.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Epic" src= "Epic.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Name of the Wind" src= "AmericanGods.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Team of Rivals" src= "TeamofRivals.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Gates of Fire" src= "GatesofFire.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="LiesofLockeLamora" src= "LiesofLockeLamora.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Mysterious Affair at Styles" src= "MysteriousAffair.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Red Seas Under Red Skies" src= "RedSeasUnderRedSkies.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Neverwhere" src= "Neverwhere.PNG">
+
+</figure>
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Artemis" src= "Artemis.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img class = "thumbnail" alt="Color of Magic" src= "ColorofMagic.PNG">
+
+</figure>
+
+
 	</body>
-	
+
 
 
 
