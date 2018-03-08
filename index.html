@@ -3,21 +3,70 @@
 
 <html>
 	<head>
-		<title>My cool webpage</title>
-		<style>
-		h1 {
-			color:red;
-		}
-		</style>
+		<title>Books Read</title>
+		<meta charset="utf-8"/>
+		<link rel = "stylesheet" type = "text/css" href ="style.css"/>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $(".book-list-item").click(function(){
+		        $(this).hide();
+		    });
+		});
+		</script>
+
+<!-- <script src = "jquery-3.3.1.js"></script>
+<script> $(document).ready(function()){
+  $(".book-list-item").click(function(){
+    $(this).hide();
+  });
+});
+</script> -->
+
 	</head>
-	
 	<body>
-		<h1> Welcome to my page!!</h1>
-		<p>
-		Hello world! I have an entire paragraph
+		<header>
+			<div class= "nav-bar"
+	<nav>
+		 <ul>
+			 <li><a href="">Books Read 2017</a></li>
+			 <li><a href="javascript:alert('I haven't read any books in 2018!');">Books Read 2018</a></li>
+		 </ul>
+
+		 </div>
+	 </nav>
+ </header>
+<div class  = "page-description">
+
+		<h1 class="page-title"> Books Read </h1>
+		<p class= "page-text">
+		These are the books I read in 2017
 		</p>
+
+	</div>
+<div class= "book-description">
+	<p class="book-description-text">
+This book is about this
+	</p>
+
+</div>
+<div class = "book-list"
+
+<figure class= "book-list-item">
+
+	<img alt="Name of the Wind" src= "NameoftheWind.PNG">
+
+</figure>
+
+<figure class= "book-list-item">
+
+	<img alt="Name of the Wind" src= "WiseMansFear.PNG">
+
+</figure>
+
 	</body>
-	
+
 
 
 

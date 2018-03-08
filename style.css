@@ -1,0 +1,36 @@
+html, body{
+
+  font-family: sans-serif;
+  background-image: url()
+}
+
+
+
+.nav-bar{
+  background-color: ForestGreen;
+}
+nav li{
+  display: inline-table;
+  margin: 0;
+  padding: 0 10px;
+  float: right;
+
+}
+
+nav ul{
+
+  display:block;
+}
+
+.page-description{
+  margin-top: 40px;
+text-align: center;
+font-weight: 100;
+border: 1px solid #000
+
+}
+
+.page-title{
+font-weight: bold;
+
+}
